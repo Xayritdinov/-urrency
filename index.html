@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DZ №5</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="forms">
+        <div class="exchange">            
+            <p>Конвертер валют
+                <button id="btn">
+                    <img src="./arrow.png" alt="Кнопка" id="btn_img">
+                </button>
+            </p>               
+            <label id="line">
+                <input type="number" id="first_currency_input" value="1">                       
+                <select id="first_currency">                    
+                    <option value="us" selected>USD</option>
+                    <option value="eu">EUR</option>                    
+                    <option value="ru">RUB</option>
+                    <option value="kz">KZT</option>                    
+                </select>
+            </label>
+            <label id="lineUz"> 
+                <input type="number" id="second_currency_input" value="12750" readOnly>                        
+                <select id="second_currency">                    
+                    <option value="uz" selected>UZS</option>
+                </select>
+            </label>
+        </div>
+    </div>
+    <script src="./main.js"></script>    
+</body>
+</html>

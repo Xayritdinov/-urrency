@@ -1,0 +1,21 @@
+.exchange{
+    width: 230px;
+    height: auto;
+    margin: 100px auto;
+    border: 10px solid #d2d2d2;
+    border-radius: 10px;
+    background: #e7e7e7;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;    
+}
+#btn_img{
+    width: 20px;     
+}
+.forms label{
+    display: block;
+    margin-bottom: 20px;    
+}
+#first_currency_input, #second_currency_input{
+    text-align: right;        
+}
